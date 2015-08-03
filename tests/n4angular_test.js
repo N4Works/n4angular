@@ -2,14 +2,14 @@
 
 describe('n4Angular', function()
 {
-  beforeEach(module('n4Angular'));
+  beforeEach(module('n4-angular'));
 
 
   describe('Module creation', function()
   {
-    it('should be able to create the module', function()
+    it('should be able to create the module', inject(function(N4NotificationModel)
     {
-      expect(true).toEqual(true);
-    });
+      expect(new N4NotificationModel()).toBeDefined();
+    }));
   });
 });
