@@ -1,0 +1,41 @@
+{
+  "name": "n4Angular",
+  "main": "dist/n4angular.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/N4Works/n4angular.git",
+  "authors": [
+    "N4Works <contato@n4works.com>"
+  ],
+  "description": "desc",
+  "keywords": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    ".idea",
+    ".gitignore",
+    "node_modules",
+    "tests",
+    "LICENSE",
+    "bower_components",
+    "coverage",
+    "gulpfile.js",
+    "package.json",
+    "*.conf.js"
+  ],
+  "dependencies": {
+    "angular": ">=1.0.8",
+    "n4-exception-interceptor": "*",
+    "n4-authentication-interceptor": "*",
+    "n4-fileSize-filter": "*",
+    "n4-codigo-filter": "*",
+    "n4-cpfCnpj-filter": "*",
+    "n4-notifications-directive": "*",
+    "n4-modal-directive": "*",
+    "n4-onBottom-directive": "*",
+    "n4-dateInput-directive": "*",
+    "n4-numberInput-directive": "*"
+  },
+  "devDependencies": {
+    "angular-mocks": ">=1.0.8"
+  }
+}
