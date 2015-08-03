@@ -1,7 +1,10 @@
 {
   "name": "n4Angular",
   "version": "0.0.1",
-  "main": "dist/n4angular.js",
+  "main": [
+    "dist/n4angular.min.js",
+    "dist/n4angular.min.css"
+  ],
   "scripts":
   {
     "test": "gulp coverage"

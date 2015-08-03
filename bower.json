@@ -1,6 +1,9 @@
 {
   "name": "n4Angular",
-  "main": "dist/n4angular.js",
+  "main": [
+    "dist/n4angular.min.js",
+    "dist/n4angular.min.css"
+  ],
   "version": "0.0.1",
   "homepage": "https://github.com/N4Works/n4angular.git",
   "authors": [
