@@ -26,7 +26,10 @@
     "*.conf.js"
   ],
   "dependencies": {
-    "angular": ">=1.0.8",
+    "angular": ">=1.0.8"
+  },
+  "devDependencies": {
+    "angular-mocks": ">=1.0.8",
     "n4-exception-interceptor": "*",
     "n4-authentication-interceptor": "*",
     "n4-fileSize-filter": "*",
@@ -37,8 +40,5 @@
     "n4-onBottom-directive": "*",
     "n4-dateInput-directive": "*",
     "n4-numberInput-directive": "*"
-  },
-  "devDependencies": {
-    "angular-mocks": ">=1.0.8"
   }
 }
