@@ -24,6 +24,8 @@ var _karma = function(config)
 
       'bower_components/angular-mocks/angular-mocks.js',
 
+      'bower_components/angular-animate/angular-animate.js',
+
       'src/**/*.js',
 
       'tests/*_test.js'
