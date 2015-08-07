@@ -18,7 +18,8 @@
     'n4Modal',
     'n4OnBottom',
     'n4DateInput',
-    'n4NumberInput'
+    'n4NumberInput',
+    'n4FileUpload'
   ]);
 
   ng
