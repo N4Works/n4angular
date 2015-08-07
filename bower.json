@@ -40,6 +40,7 @@
     "n4-modal-directive": "*",
     "n4-onBottom-directive": "*",
     "n4-dateInput-directive": "*",
-    "n4-numberInput-directive": "*"
+    "n4-numberInput-directive": "*",
+    "n4-fileUpload-directive": "*"
   }
 }
